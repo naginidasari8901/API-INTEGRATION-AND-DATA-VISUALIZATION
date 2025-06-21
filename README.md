@@ -99,5 +99,11 @@ matplotlib, seaborn, or plotly for visualization
 
 # ✅ Output :
 
+![Image](https://github.com/user-attachments/assets/18a18747-7f33-4d1b-b668-b6971844e9e5)
+
+![Image](https://github.com/user-attachments/assets/0b507482-4279-40f8-87d8-83114a7bce20)
+
+![Image](https://github.com/user-attachments/assets/957fec3d-fd2e-4680-adf0-2fb9ee6c7a14)
+
 
 
