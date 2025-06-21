@@ -65,10 +65,10 @@ Plotly – interactive plots (web-friendly)
 
 Pandas built-in – quick plots from DataFrames
 
-# Sort and get top 10 countries by confirmed cases
+# program: plot total COVID-19 Cases by country
+import matplotlib.pyplot as plt
+import seaborn as snsn
 top10 = countries_data.sort_values(by='TotalConfirmed', ascending=False).head(10)
-
-# Barplot using Seaborn
 plt.figure(figsize=(12, 6))
 sns.barplot(x='TotalConfirmed', y='Country', data=top10, palette='Reds_r')
 plt.title('Top 10 Countries by Total Confirmed COVID-19 Cases')
@@ -76,9 +76,6 @@ plt.xlabel('Total Confirmed Cases')
 plt.ylabel('Country')
 plt.tight_layout()
 plt.show()
-
-
----
 
 # 🔄 Combine Both
 
