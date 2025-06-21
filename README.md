@@ -32,10 +32,6 @@
 
 5. Convert to a DataFrame (optional, for analysis)
 
-
-# Example API - COVID-19 stats
-url = "https://api.covid19api.com/summary"
-
 # Send GET request
 response = requests.get(url)
 
